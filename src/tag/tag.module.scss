@@ -1,0 +1,56 @@
+.tag {
+  box-sizing: border-box;
+  color: #000000d9;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum";
+  display: inline-block;
+  height: auto;
+  padding: 0 7px;
+  font-size: 12px;
+  line-height: 20px;
+  white-space: nowrap;
+  background: #fafafa;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  opacity: 1;
+  transition: all 0.3s;
+
+  &--purple {
+    color: #531dab;
+    background: #f9f0ff;
+    border-color: #d3adf7;
+  }
+  &--magenta {
+    color: #c41d7f;
+    background: #fff0f6;
+    border-color: #ffadd2;
+  }
+  &--orange {
+    color: #d46b08;
+    background: #fff7e6;
+    border-color: #ffd591;
+  }
+
+  &--lime {
+    color: #7cb305;
+    background: #fcffe6;
+    border-color: #eaff8f;
+  }
+
+  &--blue {
+    color: #096dd9;
+    background: #e6f7ff;
+    border-color: #91d5ff;
+  }
+}
+
+.centered {
+  text-align: center;
+}
+
+.pointer {
+  cursor: pointer;
+}

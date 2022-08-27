@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "unsecureKey",
+  "db": "mongodb://localhost/pdp-b-18",
+  "port": "8080",
+  "requiresAuth": true
+}
